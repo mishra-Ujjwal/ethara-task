@@ -64,11 +64,14 @@ export default function Register() {
           </div>
 
           <div className="form-group">
-            <label className="form-label">Register as</label>
-            <select className="form-select"  onChange={e => setForm(p => ({ ...p, role: e.target.value }))}>
-              <option value="admin">Admin</option>
-            </select>
-          </div>
+  <label className="form-label">Register as</label>
+  <input
+    type="text"
+    className="form-control"
+    value="Admin"
+    readOnly
+  />
+</div>
 
           <button className="btn btn-primary" style={{ width:"100%", justifyContent:"center", marginTop:"0.25rem" }} disabled={loading}>
             {loading ? "Creating account…" : "Create account →"}
