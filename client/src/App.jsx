@@ -238,16 +238,15 @@ function RegisterPage() {
           </div>
 
           <div className="form-group">
-            <label className="form-label">Role</label>
-            <select
-              className="form-select"
-              value={form.role}
-              onChange={(event) => handleChange("role", event.target.value)}
-            >
-              <option value="admin">Admin</option>
-              
-            </select>
-          </div>
+  <label className="form-label">Role</label>
+  <select
+    className="form-select"
+    value="admin"
+    disabled
+  >
+    <option value="admin">Admin</option>
+  </select>
+</div>
 
           {pageError ? (
             <div className="badge badge-red" style={{ width: "100%", justifyContent: "center" }}>
