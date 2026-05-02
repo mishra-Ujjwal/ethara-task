@@ -1,88 +1,93 @@
 Task Management System (Role-Based)
+Overview
 
-A full-stack task management web application where users can create projects, assign tasks, and track progress with role-based access control (Admin / Manager / Team Member).
+This is a full-stack task management web application where users can create projects, manage teams, assign tasks, and track progress. The system is built with role-based access control, supporting Admin, Manager, and Team Member roles.
 
-Features:
+Features
 Authentication
-User Signup & Login
-Secure authentication system
-Role-based access (Admin, Manager, Team Member)
- Roles & Functionalities:
- Admin:
-Register and create account
-Create and manage teams
+User registration and login
+Role-based access control (Admin, Manager, Team Member)
+Roles and Functionalities
+Admin
+Create and manage account through registration
+Create team structure:
 Add Managers
 Add Team Members (Employees)
-Assign team members under Managers
-Create Projects
-Assign projects to Managers
-View all teams and structure
- Manager:
-Dashboard with insights:
-Total Tasks
-To Do
-In Progress
-Review
-Completed
-Overdue Tasks
-Team Size
+Assign team members under specific managers
+Create projects
+Assign projects to managers
+View all teams and hierarchy
+Manager
+Access dashboard with detailed metrics:
+Total tasks
+Tasks in To Do, In Progress, Review, Completed
+Overdue tasks
+Team size
 View recent tasks
 Create tasks:
-Assign to self or team members
+Assign tasks to self or team members
 Set deadlines
-Track task progress
-View Task Board (Kanban style)
- Team Member (Employee):
+Monitor task progress
+Access task board (Kanban view)
+Team Member (Employee)
 View assigned tasks
-Start/Stop timer for tasks
-Track time spent on tasks
+Start and stop task timer
+Track time spent on each task
 Update task status
-Add work description on completion
-View personal dashboard
- Task Management Features:
-Task creation & assignment
-Status tracking:
+Add description of completed work
+Access personal dashboard
+Task Management
+Create and assign tasks
+Track task status:
 To Do
 In Progress
 Review
 Completed
-Time tracking system
-Task completion notes
-Overdue task tracking
- Dashboard:
+Time tracking functionality
+Add completion notes
+Identify overdue tasks
+Dashboard
 Role-based dashboards
-Task statistics overview
-Recent tasks visibility
+Overview of task statistics
+Display of recent tasks
 Performance tracking
- Tech Stack:
-Frontend: (React / HTML / CSS / Tailwind)
-Backend: (Node.js / Express)
-Database: (SQL / NoSQL)
-Version Control: Git
- API & Backend:
-REST APIs implemented
-Proper validation
+Technical Implementation
+Backend
+REST API architecture
+Proper validations and error handling
 Role-based access control (RBAC)
-Structured database relationships
- How to Run:
-# Clone repo
-git clone <repo-link>
+Structured data relationships
+Frontend
+User-friendly interface
+Dashboard and task board UI
+Responsive design
+Database
+SQL or NoSQL database
+Relationship management between users, tasks, and projects
+Tech Stack
+Frontend: React / HTML / CSS / Tailwind
+Backend: Node.js / Express
+Database: SQL / NoSQL
+Version Control: Git
+Setup Instructions
+# Clone the repository
+git clone <repository-link>
 
 # Install dependencies
 npm install
 
-# Run server
+# Run the application
 npm start
- Project Objective:
-Build a scalable task management system
-Implement role-based architecture
-Handle real-world workflows like:
-Team hierarchy
-Task tracking
-Time tracking
-Project assignment
- Future Improvements:
-Notifications system
-Real-time updates (WebSockets)
+Project Objective
+
+The goal of this project is to build a scalable task management system that demonstrates:
+
+Role-based system design
+Team and project management
+Task tracking and time tracking
+Real-world workflow implementation
+Future Improvements
+Notification system
+Real-time updates
 File attachments in tasks
 Advanced analytics dashboard
