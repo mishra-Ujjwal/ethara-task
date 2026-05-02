@@ -27,8 +27,8 @@ export default function Register() {
     <div className="auth-page">
       <div className="auth-card fade-in">
         <div className="auth-logo">
-          <div className="auth-logo-mark">⬡</div>
-          <h1>TaskFlow</h1>
+          {/* <div className="auth-logo-mark">⬡</div> */}
+          <h1>Task Assignment</h1>
           <p>Create your workspace</p>
         </div>
 
@@ -67,7 +67,6 @@ export default function Register() {
             <label className="form-label">Register as</label>
             <select className="form-select" value={form.role} onChange={e => setForm(p => ({ ...p, role: e.target.value }))}>
               <option value="admin">Admin</option>
-
             </select>
           </div>
 

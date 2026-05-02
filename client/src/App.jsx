@@ -92,8 +92,8 @@ function LoginPage() {
     <div className="auth-page">
       <div className="auth-card fade-in">
         <div className="auth-logo">
-          <div className="auth-logo-mark">⬡</div>
-          <h1>TaskFlow</h1>
+          {/* <div className="auth-logo-mark">⬡</div> */}
+          <h1>Task Assignment</h1>
           <p>Sign in to open your workspace</p>
         </div>
 
@@ -193,9 +193,9 @@ function RegisterPage() {
     <div className="auth-page">
       <div className="auth-card fade-in">
         <div className="auth-logo">
-          <div className="auth-logo-mark">⬡</div>
+          {/* <div className="auth-logo-mark">⬡</div> */}
           <h1>Create Account</h1>
-          <p>Register an admin, manager, or employee account</p>
+          <p>Register an admin account</p>
         </div>
 
         <form onSubmit={handleSubmit}>

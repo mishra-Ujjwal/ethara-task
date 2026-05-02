@@ -28,8 +28,8 @@ export default function Login() {
     <div className="auth-page">
       <div className="auth-card fade-in">
         <div className="auth-logo">
-          <div className="auth-logo-mark">⬡</div>
-          <h1>TaskFlow</h1>
+          {/* <div className="auth-logo-mark">⬡</div> */}
+          <h1>Task Assignment</h1>
           <p>Sign in to your workspace</p>
         </div>
 

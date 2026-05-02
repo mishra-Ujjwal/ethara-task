@@ -57,7 +57,7 @@ export default function Sidebar() {
               display:"flex", alignItems:"center", justifyContent:"center",
               fontSize:"1.25rem",
             }}>⬡</div>
-            <span style={{ fontWeight:600, fontSize:"1rem", letterSpacing:"-0.02em" }}>TaskFlow</span>
+            <span style={{ fontWeight:600, fontSize:"1rem", letterSpacing:"-0.02em" }}>Task Assignment</span>
           </div>
           <button
             type="button"
