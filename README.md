@@ -1,3 +1,5 @@
+live link : https://task-ethara.onrender.com/
+
 # 📋 Task Management System (Role-Based)
 
 A full-stack task management app with role-based access control supporting **Admin**, **Manager**, and **Team Member** roles. Built with React, Node.js, Express, and NoSQL database.
@@ -11,7 +13,7 @@ A full-stack task management app with role-based access control supporting **Adm
 
 ## ⚙️ Setup
 ```bash
-git clone <repository-link>
+git clone repository link
 npm install
 npm start
 ```
