@@ -65,7 +65,7 @@ export default function Register() {
 
           <div className="form-group">
             <label className="form-label">Register as</label>
-            <select className="form-select" value={form.role} onChange={e => setForm(p => ({ ...p, role: e.target.value }))}>
+            <select className="form-select"  onChange={e => setForm(p => ({ ...p, role: e.target.value }))}>
               <option value="admin">Admin</option>
             </select>
           </div>
