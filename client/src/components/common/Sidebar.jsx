@@ -51,12 +51,12 @@ export default function Sidebar() {
       <div className="sidebar-section sidebar-brand">
         <div className="sidebar-brand-row">
           <div style={{ display:"flex", alignItems:"center", gap:"0.6rem" }}>
-            <div style={{
+            {/* <div style={{
               width:32, height:32, borderRadius:8, background:"var(--accent-bg)",
               border:"1px solid rgba(124,106,247,0.3)",
               display:"flex", alignItems:"center", justifyContent:"center",
               fontSize:"1.25rem",
-            }}>⬡</div>
+            }}>⬡</div> */}
             <span style={{ fontWeight:600, fontSize:"1rem", letterSpacing:"-0.02em" }}>Task Assignment</span>
           </div>
           <button
