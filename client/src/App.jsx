@@ -245,8 +245,7 @@ function RegisterPage() {
               onChange={(event) => handleChange("role", event.target.value)}
             >
               <option value="admin">Admin</option>
-              <option value="manager">Manager</option>
-              <option value="employee">Employee</option>
+              
             </select>
           </div>
 
